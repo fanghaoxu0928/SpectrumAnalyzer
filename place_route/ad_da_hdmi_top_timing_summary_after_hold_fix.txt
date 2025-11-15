@@ -1,0 +1,152 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M     955.855       0.000              0           4371
+ pll_adda|u_pll/u_pll_e3/CLKOUT1
+                        pll_adda|u_pll/u_pll_e3/CLKOUT1
+                                                   892.852       0.000              0          11457
+ meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                        meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                                                   992.711       0.000              0            462
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                   993.836       0.000              0            560
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                                                   985.660       0.000              0           3258
+ DebugCore_JCLK         DebugCore_JCLK              23.575       0.000              0           2105
+ DebugCore_CAPTURE      DebugCore_JCLK              19.872       0.000              0            118
+ DebugCore_JCLK         DebugCore_CAPTURE           46.900       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M       0.235       0.000              0           4371
+ pll_adda|u_pll/u_pll_e3/CLKOUT1
+                        pll_adda|u_pll/u_pll_e3/CLKOUT1
+                                                     0.155       0.000              0          11457
+ meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                        meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                                                     0.335       0.000              0            462
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                     0.208       0.000              0            560
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                                                     0.338       0.000              0           3258
+ DebugCore_JCLK         DebugCore_JCLK               0.335       0.000              0           2105
+ DebugCore_CAPTURE      DebugCore_JCLK              23.094       0.000              0            118
+ DebugCore_JCLK         DebugCore_CAPTURE            0.579       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M     995.343       0.000              0           1277
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                   996.377       0.000              0              1
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M       0.712       0.000              0           1277
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                     1.373       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M     974.240       0.000              0           4371
+ pll_adda|u_pll/u_pll_e3/CLKOUT1
+                        pll_adda|u_pll/u_pll_e3/CLKOUT1
+                                                   935.850       0.000              0          11457
+ meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                        meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                                                   995.329       0.000              0            462
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                   996.470       0.000              0            560
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                                                   991.664       0.000              0           3258
+ DebugCore_JCLK         DebugCore_JCLK              24.171       0.000              0           2105
+ DebugCore_CAPTURE      DebugCore_JCLK              22.454       0.000              0            118
+ DebugCore_JCLK         DebugCore_CAPTURE           47.489       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M       0.172       0.000              0           4371
+ pll_adda|u_pll/u_pll_e3/CLKOUT1
+                        pll_adda|u_pll/u_pll_e3/CLKOUT1
+                                                     0.106       0.000              0          11457
+ meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                        meter_pll|meter_0/pll_0/u_pll_e3/CLKOUT0
+                                                     0.257       0.000              0            462
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                     0.140       0.000              0            560
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT0
+                                                     0.250       0.000              0           3258
+ DebugCore_JCLK         DebugCore_JCLK               0.257       0.000              0           2105
+ DebugCore_CAPTURE      DebugCore_JCLK              24.092       0.000              0            118
+ DebugCore_JCLK         DebugCore_CAPTURE            1.261       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M     997.376       0.000              0           1277
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                   997.739       0.000              0              1
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_da_hdmi_top|clk_50M ad_da_hdmi_top|clk_50M       0.485       0.000              0           1277
+ pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                        pll|hdmi_color/u_pll/u_pll_e3/CLKOUT1
+                                                     0.990       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

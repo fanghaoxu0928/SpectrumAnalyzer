@@ -1,0 +1,465 @@
+[Info] [2025-11-6 14:42:47] /***************************Start Configuration***************************/
+[Info] [2025-11-6 14:42:47] Path: D:/pds/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 14:42:47] Version: 146967
+[Info] [2025-11-6 14:42:48] Current Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 14:42:48] PDS Dir Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 14:42:49] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-6 14:42:49] Client Local host name:LAPTOP-IN7AKH45
+[Debug] [2025-11-6 14:42:49] Client Local Address:10.54.36.103
+[Debug] [2025-11-6 14:42:49] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-6 14:42:49] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-6 14:42:50] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-6 14:42:50] Finish.
+[Info] [2025-11-6 14:42:50] Connect server succeeded
+[Debug] [2025-11-6 14:42:50] Send RPC:1
+[Debug] [2025-11-6 14:42:50] Send cmd [check version information:40004] OK
+[Debug] [2025-11-6 14:42:50] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-6 14:42:50] Send RPC:2
+[Debug] [2025-11-6 14:42:50] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-6 14:42:50] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 14:42:50] Send RPC:3
+[Debug] [2025-11-6 14:42:50] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 14:42:50] End to send initialize chain cmd.
+[Debug] [2025-11-6 14:42:50] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-11-6 14:42:50] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-11-6 14:42:51] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 14:42:51] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-6 14:42:51] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 14:42:55] begin the exec of open cable cmd...
+[Debug] [2025-11-6 14:42:55] Begin to deal with chain from server...
+[Debug] [2025-11-6 14:42:55] Begin to set user chain...
+[Debug] [2025-11-6 14:42:55] End to set user chain.
+[Debug] [2025-11-6 14:42:55] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 14:42:55] End to update graphic item and tree item ...
+[Debug] [2025-11-6 14:42:55] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-6 14:42:55] Log::Print : PGL50H
+[Debug] [2025-11-6 14:42:55] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-6 14:42:57] set OpenLastPath: C:/Users/LENOVO/Desktop/backup3/generate_bitstream/ad_da_hdmi_top.sbit
+[Debug] [2025-11-6 14:42:57] begin to get device info from CFG file...
+[Debug] [2025-11-6 14:42:57] end to get device info from CFG file...
+[Debug] [2025-11-6 14:42:57] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 14:42:57] End to update graphic item and tree item ...
+[Debug] [2025-11-6 14:42:57] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 14:42:57] End to update graphic item and tree item ...
+[Debug] [2025-11-6 14:42:57] End to deal wiht chain from server.
+[Debug] [2025-11-6 14:42:57] end the exec of open cable cmd.
+[Debug] [2025-11-6 14:42:57] COMMAND[Open config cable] execute successfully, takes 6.8 secs.
+[Debug] [2025-11-6 14:42:57] Log::Print : COMMAND[Open config cable] execute successfully, takes 6.8 secs.
+[Debug] [2025-11-6 14:42:58] Begin to send programming cmd...
+[Debug] [2025-11-6 14:42:58] Send RPC:4
+[Debug] [2025-11-6 14:42:58] Begin to send program data.
+[Debug] [2025-11-6 14:42:58] End to send program data.
+[Debug] [2025-11-6 14:42:58] Send cmd [Program:20002] OK
+[Debug] [2025-11-6 14:42:58] The value of Progress is 6
+[Debug] [2025-11-6 14:42:58] The value of Progress is 10
+[Debug] [2025-11-6 14:42:58] The value of Progress is 15
+[Debug] [2025-11-6 14:42:58] The value of Progress is 20
+[Debug] [2025-11-6 14:42:58] The value of Progress is 25
+[Debug] [2025-11-6 14:42:58] The value of Progress is 30
+[Debug] [2025-11-6 14:42:58] The value of Progress is 35
+[Debug] [2025-11-6 14:42:58] The value of Progress is 40
+[Debug] [2025-11-6 14:42:58] The value of Progress is 45
+[Debug] [2025-11-6 14:42:59] The value of Progress is 50
+[Debug] [2025-11-6 14:42:59] The value of Progress is 55
+[Debug] [2025-11-6 14:42:59] The value of Progress is 60
+[Debug] [2025-11-6 14:42:59] The value of Progress is 65
+[Debug] [2025-11-6 14:42:59] The value of Progress is 70
+[Debug] [2025-11-6 14:42:59] The value of Progress is 75
+[Debug] [2025-11-6 14:42:59] The value of Progress is 80
+[Debug] [2025-11-6 14:42:59] The value of Progress is 85
+[Debug] [2025-11-6 14:42:59] The value of Progress is 90
+[Debug] [2025-11-6 14:42:59] The value of Progress is 95
+[Debug] [2025-11-6 14:42:59] The value of Progress is 100
+[Debug] [2025-11-6 14:42:59] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2025-11-6 14:42:59] End to send programming cmd.
+[Debug] [2025-11-6 14:42:59] Log::Print : The done bit is 1
+[Debug] [2025-11-6 14:42:59] Log::Print : COMMAND[Program] execute successfully, takes 2.0 secs.
+[Info] [2025-11-6 14:49:23] /***************************End Configration***************************/
+[Info] [2025-11-6 16:16:06] /***************************Start Configuration***************************/
+[Info] [2025-11-6 16:16:06] Path: D:/pds/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 16:16:06] Version: 146967
+[Info] [2025-11-6 16:16:07] Current Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:16:07] PDS Dir Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:16:09] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-6 16:16:09] Client Local host name:LAPTOP-IN7AKH45
+[Debug] [2025-11-6 16:16:09] Client Local Address:10.54.36.103
+[Debug] [2025-11-6 16:16:09] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-6 16:16:09] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-6 16:16:09] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-6 16:16:09] Finish.
+[Info] [2025-11-6 16:16:09] Connect server succeeded
+[Debug] [2025-11-6 16:16:09] Send RPC:1
+[Debug] [2025-11-6 16:16:09] Send cmd [check version information:40004] OK
+[Debug] [2025-11-6 16:16:09] Send RPC:2
+[Debug] [2025-11-6 16:16:09] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-6 16:16:09] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 16:16:09] Send RPC:3
+[Debug] [2025-11-6 16:16:09] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 16:16:09] End to send initialize chain cmd.
+[Debug] [2025-11-6 16:16:09] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-11-6 16:16:09] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-6 16:16:09] Log::Print : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2025-11-6 16:16:10] COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Debug] [2025-11-6 16:16:10] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-6 16:16:10] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Error] [2025-11-6 16:16:14] fail to exec Open config cable cmd...
+[Debug] [2025-11-6 16:16:14] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Error] [2025-11-6 16:16:14] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2025-11-6 16:16:14] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2025-11-6 16:16:14] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Debug] [2025-11-6 16:16:17] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 16:16:17] Begin to send cmd of scanning flash device on board
+[Debug] [2025-11-6 16:16:17] Send RPC:4
+[Debug] [2025-11-6 16:16:17] Send cmd [Scan SPI Device On Board:20100] OK
+[Debug] [2025-11-6 16:16:17] End to send cmd of scanning flash device on board
+[Debug] [2025-11-6 16:16:17] End to send initialize chain cmd.
+[Debug] [2025-11-6 16:16:20] begin to scan flash device.
+[Error] [2025-11-6 16:16:20] fail to exec Scan SPI Device On Board cmd...
+[Debug] [2025-11-6 16:16:20] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Error] [2025-11-6 16:16:20] MsgOut: JtagServer-0335: No flash device detected, please check whether the cable is connected correctly, including independent power supply and ground, reset and SPI interface. In addition, you can also try to reduce the clock frequency of cable or replace with other cable.
+[Error] [2025-11-6 16:16:20] MsgOut: Configuration-0008: The command 'Scan SPI Device On Board' execute fail.
+[Debug] [2025-11-6 16:16:25] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 16:16:25] Begin to send cmd of scanning flash device on board
+[Debug] [2025-11-6 16:16:25] Send RPC:5
+[Debug] [2025-11-6 16:16:25] Send cmd [Scan SPI Device On Board:20100] OK
+[Debug] [2025-11-6 16:16:25] End to send cmd of scanning flash device on board
+[Debug] [2025-11-6 16:16:25] End to send initialize chain cmd.
+[Debug] [2025-11-6 16:16:29] begin to scan flash device.
+[Error] [2025-11-6 16:16:29] fail to exec Scan SPI Device On Board cmd...
+[Debug] [2025-11-6 16:16:29] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Error] [2025-11-6 16:16:29] MsgOut: JtagServer-0335: No flash device detected, please check whether the cable is connected correctly, including independent power supply and ground, reset and SPI interface. In addition, you can also try to reduce the clock frequency of cable or replace with other cable.
+[Error] [2025-11-6 16:16:29] MsgOut: Configuration-0008: The command 'Scan SPI Device On Board' execute fail.
+[Info] [2025-11-6 16:16:30] /***************************End Configration***************************/
+[Info] [2025-11-6 16:16:33] /***************************Start Configuration***************************/
+[Info] [2025-11-6 16:16:33] Path: D:/pds/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 16:16:33] Version: 146967
+[Info] [2025-11-6 16:16:34] Current Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:16:34] PDS Dir Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:16:38] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-6 16:16:38] Client Local host name:LAPTOP-IN7AKH45
+[Debug] [2025-11-6 16:16:38] Client Local Address:10.54.36.103
+[Debug] [2025-11-6 16:16:38] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-6 16:16:38] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-6 16:16:39] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-6 16:16:39] Finish.
+[Info] [2025-11-6 16:16:39] Connect server succeeded
+[Debug] [2025-11-6 16:16:39] Send RPC:1
+[Debug] [2025-11-6 16:16:39] Send cmd [check version information:40004] OK
+[Debug] [2025-11-6 16:16:39] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-6 16:16:39] Send RPC:2
+[Debug] [2025-11-6 16:16:39] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-6 16:16:39] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 16:16:39] Send RPC:3
+[Debug] [2025-11-6 16:16:39] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 16:16:39] End to send initialize chain cmd.
+[Debug] [2025-11-6 16:16:39] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 16:16:39] Log::Print : COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 16:16:39] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 16:16:39] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-6 16:16:39] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 16:16:40] begin the exec of open cable cmd...
+[Debug] [2025-11-6 16:16:40] Begin to deal with chain from server...
+[Debug] [2025-11-6 16:16:40] Begin to set user chain...
+[Debug] [2025-11-6 16:16:40] End to set user chain.
+[Debug] [2025-11-6 16:16:40] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 16:16:40] End to update graphic item and tree item ...
+[Debug] [2025-11-6 16:16:40] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-6 16:16:40] Log::Print : PGL50H
+[Debug] [2025-11-6 16:16:40] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-6 16:16:41] set OpenLastPath: C:/Users/LENOVO/Desktop/backup3/generate_bitstream/ad_da_hdmi_top.sbit
+[Debug] [2025-11-6 16:16:41] begin to get device info from CFG file...
+[Debug] [2025-11-6 16:16:41] end to get device info from CFG file...
+[Debug] [2025-11-6 16:16:41] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 16:16:41] End to update graphic item and tree item ...
+[Debug] [2025-11-6 16:16:41] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 16:16:41] End to update graphic item and tree item ...
+[Debug] [2025-11-6 16:16:41] End to deal wiht chain from server.
+[Debug] [2025-11-6 16:16:41] end the exec of open cable cmd.
+[Debug] [2025-11-6 16:16:41] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2025-11-6 16:16:41] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2025-11-6 16:16:42] Begin to send programming cmd...
+[Debug] [2025-11-6 16:16:42] Send RPC:4
+[Debug] [2025-11-6 16:16:42] Begin to send program data.
+[Debug] [2025-11-6 16:16:42] End to send program data.
+[Debug] [2025-11-6 16:16:42] Send cmd [Program:20002] OK
+[Debug] [2025-11-6 16:16:43] The value of Progress is 6
+[Debug] [2025-11-6 16:16:43] The value of Progress is 10
+[Debug] [2025-11-6 16:16:43] The value of Progress is 15
+[Debug] [2025-11-6 16:16:43] The value of Progress is 20
+[Debug] [2025-11-6 16:16:43] The value of Progress is 25
+[Debug] [2025-11-6 16:16:43] The value of Progress is 30
+[Debug] [2025-11-6 16:16:43] The value of Progress is 35
+[Debug] [2025-11-6 16:16:43] The value of Progress is 40
+[Debug] [2025-11-6 16:16:43] The value of Progress is 45
+[Debug] [2025-11-6 16:16:43] The value of Progress is 50
+[Debug] [2025-11-6 16:16:43] The value of Progress is 55
+[Debug] [2025-11-6 16:16:44] The value of Progress is 60
+[Debug] [2025-11-6 16:16:44] The value of Progress is 65
+[Debug] [2025-11-6 16:16:44] The value of Progress is 70
+[Debug] [2025-11-6 16:16:44] The value of Progress is 75
+[Debug] [2025-11-6 16:16:44] The value of Progress is 80
+[Debug] [2025-11-6 16:16:44] The value of Progress is 85
+[Debug] [2025-11-6 16:16:44] The value of Progress is 90
+[Debug] [2025-11-6 16:16:44] The value of Progress is 95
+[Debug] [2025-11-6 16:16:44] The value of Progress is 100
+[Debug] [2025-11-6 16:16:44] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2025-11-6 16:16:44] End to send programming cmd.
+[Debug] [2025-11-6 16:16:44] Log::Print : The done bit is 1
+[Debug] [2025-11-6 16:16:44] Log::Print : COMMAND[Program] execute successfully, takes 2.0 secs.
+[Info] [2025-11-6 16:18:52] /***************************End Configration***************************/
+[Info] [2025-11-6 16:22:40] /***************************Start Configuration***************************/
+[Info] [2025-11-6 16:22:40] Path: D:/pds/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 16:22:40] Version: 146967
+[Info] [2025-11-6 16:22:41] Current Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:22:41] PDS Dir Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:22:43] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-6 16:22:43] Client Local host name:LAPTOP-IN7AKH45
+[Debug] [2025-11-6 16:22:43] Client Local Address:10.54.36.103
+[Debug] [2025-11-6 16:22:43] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-6 16:22:43] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-6 16:22:43] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-6 16:22:43] Finish.
+[Info] [2025-11-6 16:22:43] Connect server succeeded
+[Debug] [2025-11-6 16:22:43] Send RPC:1
+[Debug] [2025-11-6 16:22:43] Send cmd [check version information:40004] OK
+[Debug] [2025-11-6 16:22:43] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-6 16:22:44] Send RPC:2
+[Debug] [2025-11-6 16:22:44] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-6 16:22:44] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 16:22:44] Send RPC:3
+[Debug] [2025-11-6 16:22:44] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 16:22:44] End to send initialize chain cmd.
+[Debug] [2025-11-6 16:22:44] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 16:22:44] Log::Print : COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 16:22:44] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 16:22:44] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-6 16:22:44] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 16:22:45] begin the exec of open cable cmd...
+[Debug] [2025-11-6 16:22:45] Begin to deal with chain from server...
+[Debug] [2025-11-6 16:22:45] Begin to set user chain...
+[Debug] [2025-11-6 16:22:45] End to set user chain.
+[Debug] [2025-11-6 16:22:45] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 16:22:45] End to update graphic item and tree item ...
+[Debug] [2025-11-6 16:22:45] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-6 16:22:45] Log::Print : PGL50H
+[Debug] [2025-11-6 16:22:45] Log::Print : This device configure situation (done bit): 1
+[Debug] [2025-11-6 16:22:46] selected file name is empty and ignore.
+[Debug] [2025-11-6 16:22:46] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 16:22:46] End to update graphic item and tree item ...
+[Debug] [2025-11-6 16:22:46] End to deal wiht chain from server.
+[Debug] [2025-11-6 16:22:46] end the exec of open cable cmd.
+[Debug] [2025-11-6 16:22:46] COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Debug] [2025-11-6 16:22:46] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Info] [2025-11-6 16:22:47] /***************************End Configration***************************/
+[Info] [2025-11-6 16:26:05] /***************************Start Configuration***************************/
+[Info] [2025-11-6 16:26:05] Path: D:/pds/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 16:26:05] Version: 146967
+[Info] [2025-11-6 16:26:06] Current Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:26:06] PDS Dir Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 16:26:07] /***************************End Configration***************************/
+[Info] [2025-11-6 17:00:15] /***************************Start Configuration***************************/
+[Info] [2025-11-6 17:00:15] Path: D:/pds/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 17:00:15] Version: 146967
+[Info] [2025-11-6 17:00:16] Current Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 17:00:16] PDS Dir Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 17:00:18] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-6 17:00:18] Client Local host name:LAPTOP-IN7AKH45
+[Debug] [2025-11-6 17:00:18] Client Local Address:10.54.36.103
+[Debug] [2025-11-6 17:00:18] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-6 17:00:19] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-6 17:00:19] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-6 17:00:19] Finish.
+[Info] [2025-11-6 17:00:19] Connect server succeeded
+[Debug] [2025-11-6 17:00:19] Send RPC:1
+[Debug] [2025-11-6 17:00:19] Send cmd [check version information:40004] OK
+[Debug] [2025-11-6 17:00:19] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-6 17:00:19] Send RPC:2
+[Debug] [2025-11-6 17:00:19] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-6 17:00:19] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 17:00:19] Send RPC:3
+[Debug] [2025-11-6 17:00:19] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 17:00:19] End to send initialize chain cmd.
+[Debug] [2025-11-6 17:00:19] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 17:00:19] Log::Print : COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 17:00:20] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 17:00:20] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-6 17:00:20] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 17:00:20] begin the exec of open cable cmd...
+[Debug] [2025-11-6 17:00:20] Begin to deal with chain from server...
+[Debug] [2025-11-6 17:00:20] Begin to set user chain...
+[Debug] [2025-11-6 17:00:20] End to set user chain.
+[Debug] [2025-11-6 17:00:20] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 17:00:20] End to update graphic item and tree item ...
+[Debug] [2025-11-6 17:00:20] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-6 17:00:20] Log::Print : PGL50H
+[Debug] [2025-11-6 17:00:20] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-6 17:00:22] set OpenLastPath: C:/Users/LENOVO/Desktop/backup3/generate_bitstream/ad_da_hdmi_top.sbit
+[Debug] [2025-11-6 17:00:22] begin to get device info from CFG file...
+[Debug] [2025-11-6 17:00:22] end to get device info from CFG file...
+[Debug] [2025-11-6 17:00:22] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 17:00:22] End to update graphic item and tree item ...
+[Debug] [2025-11-6 17:00:22] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 17:00:22] End to update graphic item and tree item ...
+[Debug] [2025-11-6 17:00:22] End to deal wiht chain from server.
+[Debug] [2025-11-6 17:00:22] end the exec of open cable cmd.
+[Debug] [2025-11-6 17:00:22] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2025-11-6 17:00:22] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2025-11-6 17:00:23] Begin to send programming cmd...
+[Debug] [2025-11-6 17:00:23] Send RPC:4
+[Debug] [2025-11-6 17:00:23] Begin to send program data.
+[Debug] [2025-11-6 17:00:23] End to send program data.
+[Debug] [2025-11-6 17:00:23] Send cmd [Program:20002] OK
+[Debug] [2025-11-6 17:00:23] The value of Progress is 6
+[Debug] [2025-11-6 17:00:23] The value of Progress is 10
+[Debug] [2025-11-6 17:00:24] The value of Progress is 15
+[Debug] [2025-11-6 17:00:24] The value of Progress is 20
+[Debug] [2025-11-6 17:00:24] The value of Progress is 25
+[Debug] [2025-11-6 17:00:24] The value of Progress is 30
+[Debug] [2025-11-6 17:00:24] The value of Progress is 35
+[Debug] [2025-11-6 17:00:24] The value of Progress is 40
+[Debug] [2025-11-6 17:00:24] The value of Progress is 45
+[Debug] [2025-11-6 17:00:24] The value of Progress is 50
+[Debug] [2025-11-6 17:00:24] The value of Progress is 55
+[Debug] [2025-11-6 17:00:24] The value of Progress is 60
+[Debug] [2025-11-6 17:00:24] The value of Progress is 65
+[Debug] [2025-11-6 17:00:24] The value of Progress is 70
+[Debug] [2025-11-6 17:00:25] The value of Progress is 75
+[Debug] [2025-11-6 17:00:25] The value of Progress is 80
+[Debug] [2025-11-6 17:00:25] The value of Progress is 85
+[Debug] [2025-11-6 17:00:25] The value of Progress is 90
+[Debug] [2025-11-6 17:00:25] The value of Progress is 95
+[Debug] [2025-11-6 17:00:25] The value of Progress is 100
+[Debug] [2025-11-6 17:00:25] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2025-11-6 17:00:25] End to send programming cmd.
+[Debug] [2025-11-6 17:00:25] Log::Print : The done bit is 1
+[Debug] [2025-11-6 17:00:25] Log::Print : COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2025-11-6 17:32:00] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 17:32:00] Send RPC:5
+[Debug] [2025-11-6 17:32:00] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 17:32:00] End to send initialize chain cmd.
+[Debug] [2025-11-6 17:32:02] Begin to send programming cmd...
+[Debug] [2025-11-6 17:32:02] Send RPC:6
+[Debug] [2025-11-6 17:32:02] Begin to send program data.
+[Debug] [2025-11-6 17:32:02] End to send program data.
+[Debug] [2025-11-6 17:32:02] Send cmd [Program:20002] OK
+[Error] [2025-11-6 17:32:05] fail to exec Open config cable cmd...
+[Debug] [2025-11-6 17:32:05] End to send programming cmd.
+[Debug] [2025-11-6 17:32:05] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Error] [2025-11-6 17:32:05] MsgOut: JtagServer-0306: No devices detected while scanning the JTAG chain, failed detecting JTAG device chain.
+[Warn] [2025-11-6 17:32:05] MsgOut: Please check the device power, cable connection situation and whether put the chip in the right way or not.
+   If these do not work, try to restart the software.
+[Error] [2025-11-6 17:32:05] MsgOut: Configuration-0008: The command 'Open config cable' execute fail.
+[Debug] [2025-11-6 17:32:08] The value of Progress is 6
+[Debug] [2025-11-6 17:32:08] The value of Progress is 10
+[Debug] [2025-11-6 17:32:08] The value of Progress is 15
+[Debug] [2025-11-6 17:32:08] The value of Progress is 20
+[Debug] [2025-11-6 17:32:08] The value of Progress is 25
+[Debug] [2025-11-6 17:32:08] The value of Progress is 30
+[Debug] [2025-11-6 17:32:09] The value of Progress is 35
+[Debug] [2025-11-6 17:32:09] The value of Progress is 40
+[Debug] [2025-11-6 17:32:09] The value of Progress is 45
+[Debug] [2025-11-6 17:32:09] The value of Progress is 50
+[Debug] [2025-11-6 17:32:09] The value of Progress is 55
+[Debug] [2025-11-6 17:32:09] The value of Progress is 60
+[Debug] [2025-11-6 17:32:09] The value of Progress is 65
+[Debug] [2025-11-6 17:32:09] The value of Progress is 70
+[Debug] [2025-11-6 17:32:09] The value of Progress is 75
+[Debug] [2025-11-6 17:32:09] The value of Progress is 80
+[Debug] [2025-11-6 17:32:09] The value of Progress is 85
+[Debug] [2025-11-6 17:32:10] The value of Progress is 90
+[Debug] [2025-11-6 17:32:10] The value of Progress is 95
+[Debug] [2025-11-6 17:32:10] The value of Progress is 100
+[Debug] [2025-11-6 17:32:10] COMMAND[Program] execute successfully, takes 7.8 secs.
+[Debug] [2025-11-6 17:32:10] Log::Print : The done bit is 1
+[Debug] [2025-11-6 17:32:10] Log::Print : COMMAND[Program] execute successfully, takes 7.8 secs.
+[Info] [2025-11-6 17:33:23] /***************************End Configration***************************/
+[Info] [2025-11-6 18:12:15] /***************************Start Configuration***************************/
+[Info] [2025-11-6 18:12:15] Path: D:/pds/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 18:12:15] Version: 146967
+[Info] [2025-11-6 18:12:16] Current Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 18:12:16] PDS Dir Path: C:/Users/LENOVO/Desktop/backup3
+[Info] [2025-11-6 18:12:18] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-6 18:12:18] Client Local host name:LAPTOP-IN7AKH45
+[Debug] [2025-11-6 18:12:18] Client Local Address:10.54.36.103
+[Debug] [2025-11-6 18:12:18] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-6 18:12:18] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-6 18:12:19] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-6 18:12:19] Finish.
+[Info] [2025-11-6 18:12:19] Connect server succeeded
+[Debug] [2025-11-6 18:12:19] Send RPC:1
+[Debug] [2025-11-6 18:12:19] Send cmd [check version information:40004] OK
+[Debug] [2025-11-6 18:12:19] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-6 18:12:19] Send RPC:2
+[Debug] [2025-11-6 18:12:19] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-6 18:12:19] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 18:12:19] Send RPC:3
+[Debug] [2025-11-6 18:12:19] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 18:12:19] End to send initialize chain cmd.
+[Debug] [2025-11-6 18:12:19] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 18:12:19] Log::Print : COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2025-11-6 18:12:20] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 18:12:20] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-6 18:12:20] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2025-11-6 18:12:20] begin the exec of open cable cmd...
+[Debug] [2025-11-6 18:12:20] Begin to deal with chain from server...
+[Debug] [2025-11-6 18:12:20] Begin to set user chain...
+[Debug] [2025-11-6 18:12:20] End to set user chain.
+[Debug] [2025-11-6 18:12:20] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 18:12:20] End to update graphic item and tree item ...
+[Debug] [2025-11-6 18:12:20] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-6 18:12:20] Log::Print : PGL50H
+[Debug] [2025-11-6 18:12:20] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-6 18:12:22] set OpenLastPath: C:/Users/LENOVO/Desktop/backup3/generate_bitstream/ad_da_hdmi_top.sbit
+[Debug] [2025-11-6 18:12:22] begin to get device info from CFG file...
+[Debug] [2025-11-6 18:12:22] end to get device info from CFG file...
+[Debug] [2025-11-6 18:12:22] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 18:12:22] End to update graphic item and tree item ...
+[Debug] [2025-11-6 18:12:22] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 18:12:22] End to update graphic item and tree item ...
+[Debug] [2025-11-6 18:12:22] End to deal wiht chain from server.
+[Debug] [2025-11-6 18:12:22] end the exec of open cable cmd.
+[Debug] [2025-11-6 18:12:22] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2025-11-6 18:12:22] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2025-11-6 18:12:23] Begin to send programming cmd...
+[Debug] [2025-11-6 18:12:23] Send RPC:4
+[Debug] [2025-11-6 18:12:23] Begin to send program data.
+[Debug] [2025-11-6 18:12:23] End to send program data.
+[Debug] [2025-11-6 18:12:23] Send cmd [Program:20002] OK
+[Debug] [2025-11-6 18:12:23] The value of Progress is 6
+[Debug] [2025-11-6 18:12:23] The value of Progress is 10
+[Debug] [2025-11-6 18:12:23] The value of Progress is 15
+[Debug] [2025-11-6 18:12:23] The value of Progress is 20
+[Debug] [2025-11-6 18:12:23] The value of Progress is 25
+[Debug] [2025-11-6 18:12:23] The value of Progress is 30
+[Debug] [2025-11-6 18:12:23] The value of Progress is 35
+[Debug] [2025-11-6 18:12:24] The value of Progress is 40
+[Debug] [2025-11-6 18:12:24] The value of Progress is 45
+[Debug] [2025-11-6 18:12:24] The value of Progress is 50
+[Debug] [2025-11-6 18:12:24] The value of Progress is 55
+[Debug] [2025-11-6 18:12:24] The value of Progress is 60
+[Debug] [2025-11-6 18:12:24] The value of Progress is 65
+[Debug] [2025-11-6 18:12:24] The value of Progress is 70
+[Debug] [2025-11-6 18:12:24] The value of Progress is 75
+[Debug] [2025-11-6 18:12:24] The value of Progress is 80
+[Debug] [2025-11-6 18:12:24] The value of Progress is 85
+[Debug] [2025-11-6 18:12:24] The value of Progress is 90
+[Debug] [2025-11-6 18:12:25] The value of Progress is 95
+[Debug] [2025-11-6 18:12:25] The value of Progress is 100
+[Debug] [2025-11-6 18:12:25] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2025-11-6 18:12:25] End to send programming cmd.
+[Debug] [2025-11-6 18:12:25] Log::Print : The done bit is 1
+[Debug] [2025-11-6 18:12:25] Log::Print : COMMAND[Program] execute successfully, takes 2.2 secs.
+[Info] [2025-11-6 18:56:53] /***************************End Configration***************************/

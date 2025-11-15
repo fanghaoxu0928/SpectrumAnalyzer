@@ -1,0 +1,92 @@
+##### Written on 2025/11/15 15:24:00 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-5FBG484
+
+Top Module : 
+	ad_da_hdmi_top
+
+Constraint File(s) : 
+	C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 19 critical warning(s), 0 warning(s), out of 447 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+define_attribute {p:vout_data[23]} {PAP_IO_LOC} {H19}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 2)] | Port vout_data[23] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:vout_data[22]} {PAP_IO_LOC} {H22}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 9)] | Port vout_data[22] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:vout_data[21]} {PAP_IO_LOC} {H21}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 16)] | Port vout_data[21] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:vout_data[16]} {PAP_IO_LOC} {K17}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 51)] | Port vout_data[16] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:vout_data[15]} {PAP_IO_LOC} {L17}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 58)] | Port vout_data[15] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:vout_data[14]} {PAP_IO_LOC} {K20}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 65)] | Port vout_data[14] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:vout_data[13]} {PAP_IO_LOC} {L19}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 72)] | Port vout_data[13] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:vout_data[8]} {PAP_IO_LOC} {M21}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 107)] | Port vout_data[8] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:vout_data[5]} {PAP_IO_LOC} {R22}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 128)] | Port vout_data[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:vout_data[4]} {PAP_IO_LOC} {R20}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 135)] | Port vout_data[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:vout_data[2]} {PAP_IO_LOC} {T21}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 149)] | Port vout_data[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:vout_clk} {PAP_IO_LOC} {M22}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 191)] | Port vout_clk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:rst_n} {PAP_IO_LOC} {K18}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 224)] | Port rst_n has been placed at location K18, whose type is share pin.
+
+define_attribute {p:ad_data_1[13]} {PAP_IO_LOC} {Y5}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 278)] | Port ad_data_1[13] has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:ad_data_1[12]} {PAP_IO_LOC} {AB5}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 283)] | Port ad_data_1[12] has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:ad_data_2[0]} {PAP_IO_LOC} {Y13}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 423)] | Port ad_data_2[0] has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:ad_clk_2} {PAP_IO_LOC} {AB13}
+	C: ConstraintEditor-2002: [C:/Users/lilpheonix/Downloads/SpectrumAnalyzer/ad9280_ad9708_HDMI.fdc(line number: 435)] | Port ad_clk_2 has been placed at location AB13, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+C: ConstraintEditor-2009: p:led_thre is lack of PAP_IO_DRIVE, OUTPUT or INOUT PORT had better set PAP_IO_DRIVE, the optional value is {8, 4, 12, 16, 24}.
+C: ConstraintEditor-2009: p:led_thre is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {SLOW, FAST}.
+
+Unconstrained ports:
+********************************************
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
